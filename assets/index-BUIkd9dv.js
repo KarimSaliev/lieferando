@@ -1430,10 +1430,6 @@ p {
         border: none;
         border-radius: 5%;
         background-color: orange;
-        @media (max-width: 300px) {
-            width: 8rem;
-            
-        }
         h4 {
             font-size: 1.2em;
         }
@@ -1463,7 +1459,7 @@ p {
         }
         button {
             height: 2em;
-            width: 5em;
+            width: 6em;
             font-size: 0.7em;
         }
     }`,G3=X.div`
