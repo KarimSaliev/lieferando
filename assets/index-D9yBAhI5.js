@@ -1497,5 +1497,5 @@ p {
         &:nth-child(2) {
             background-color: darkred;
         }
-    }`;function X3(){return y.jsx(a4,{children:y.jsx(e1,{index:!0,element:y.jsx(B3,{})})})}function q3(){return y.jsx(Z3,{children:y.jsxs(u4,{children:[y.jsx(kS,{}),y.jsx(X3,{})]})})}const Z3=X.div`
+    }`;function X3(){return y.jsx(a4,{children:y.jsx(e1,{path:"/",element:y.jsx(B3,{})})})}function q3(){return y.jsx(Z3,{children:y.jsxs(u4,{basename:"/lieferando/",children:[y.jsx(kS,{}),y.jsx(X3,{})]})})}const Z3=X.div`
   overflow: hidden;`;ds.createRoot(document.getElementById("root")).render(y.jsx(Mt.StrictMode,{children:y.jsx(q3,{})}));
