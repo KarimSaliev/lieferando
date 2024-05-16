@@ -1325,6 +1325,7 @@ p {
     background-color: beige;
     flex-direction: column;
     height: auto;
+    overflow-y: auto;
     padding-bottom: 1rem;
     p {
       font-family: sans-serif;
