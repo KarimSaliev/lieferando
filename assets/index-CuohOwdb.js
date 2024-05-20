@@ -1746,6 +1746,16 @@ p {
             width: 200px;
         }
     }
+    @media(max-width: 400px) {
+        img {
+            border-top-left-radius: 150px;
+        }
+    }
+    @media(max-width: 300px) {
+        img {
+            border-top-left-radius: 100px;
+        }
+    }
 
     `,Hp=I.div`
     display: flex;
@@ -1755,6 +1765,7 @@ p {
     background-color: orange;
     margin: 1.5rem;
     height: 400px;
+    width: 400px;
     :first-child {
         position: absolute;
         font-size: 3rem;
@@ -1762,13 +1773,25 @@ p {
         color: white;
     }
     @media(max-width: 820px) {
-        height: 280px;
+        height: 300px;
+        width: 300px;
         :first-child {
             font-size: 2.5rem;
         }
     }
     @media(max-width: 400px) {
-        height: 70vw;
+        height: 200px;
+        width: 200px;
+        :first-child {
+            font-size: 2rem;
+        }
+    }
+    @media(max-width: 300px) {
+        height: 150px;
+        width: 150px;
+        :first-child {
+            font-size: 1.5rem;
+        }
     }
     `;function ni(e){const[t,n]=z.useState(!1);return p.jsxs(p.Fragment,{children:[p.jsxs(j5,{onClick:()=>{n(!t)},children:[p.jsx($,{icon:U3}),p.jsx("p",{className:t?"active":"",children:e.text})]}),p.jsxs(T5,{className:t?"active":"",children:[p.jsx("p",{children:e.subtext}),e.list?e.list.map((r,i)=>p.jsx("ul",{children:p.jsx("li",{children:r})})):""]})]})}const j5=I.div`
     background-color: white;
