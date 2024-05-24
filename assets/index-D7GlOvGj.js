@@ -1303,7 +1303,6 @@ p {
     background-image: url("https://i.giphy.com/7kl4EOFp4N3dSeKW6f.webp");
     background-repeat:no-repeat;
     background-size: cover;
-    min-width: 100vw;
     padding: 5rem;
     display: flex;
     justify-content: center;
