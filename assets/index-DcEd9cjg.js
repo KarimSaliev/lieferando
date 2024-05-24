@@ -1871,7 +1871,7 @@ p {
     }`;function $S(){return c.jsxs(DS,{children:[c.jsx(xS,{}),c.jsx(NS,{}),c.jsx(IS,{})]})}const DS=R.div`
     `;function FS(){const[e,t]=z.useState(""),n=o=>{t(o.target.value)},r=o=>{o.preventDefault(),window.location.href=`https://www.lieferando.de/en/customerservice/search?query=${e}`};var i={dots:!0,infinite:!0,speed:500,slidesToShow:1,slidesToScroll:1};return c.jsxs(HS,{children:[c.jsxs(WS,{children:[c.jsxs(Vp,{children:[c.jsx("h3",{children:"Can we help with an order?"}),c.jsx("p",{children:"Sign in for your order status, delivery time or if you need a hand with anything."}),c.jsx("button",{children:"Sign in"})]}),c.jsxs(Vp,{children:[c.jsx("h3",{children:"Find my order"}),c.jsx("p",{children:"Enter your order details to get help on an order."}),c.jsxs(US,{children:[c.jsx("input",{type:"text",placeholder:"Order number"}),c.jsx("input",{type:"text",placeholder:"Email address"})]}),c.jsx("button",{style:{backgroundColor:"grey",borderRadius:"30px"},children:"Find my order"})]})]}),c.jsx(BS,{children:c.jsxs("form",{onSubmit:r,children:[c.jsx("input",{type:"text",placeholder:"Serch help articles",value:e,onChange:n}),c.jsx(M,{icon:Q3})]})}),c.jsxs(VS,{children:[c.jsx("h2",{children:"Browse all topics"}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]}),c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]})]}),c.jsxs(QS,{children:[c.jsx("h2",{children:"Browse all topics"}),c.jsxs(ao,{...i,children:[c.jsx(c.Fragment,{children:c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]})}),c.jsx(c.Fragment,{children:c.jsxs(Kt,{children:[c.jsx(M,{icon:Pt}),c.jsx("h3",{children:"General"}),c.jsx("p",{children:"Ratings and reviews"}),c.jsx("p",{children:"Feedback"}),c.jsx("p",{children:"Show more"})]})})]})]}),c.jsxs(YS,{children:[c.jsx("h3",{children:"Are you a restaurant owner?"}),c.jsx("p",{children:"Please visit our dedicated support page with questions and answers for restaurant owners."}),c.jsxs("button",{children:[" ",c.jsx(M,{icon:W3}),"Support for restaurant owners"]})]})]})}const HS=R.div`
     height: auto;
-    
+    padding-top: 5rem;
     `,WS=R.div`
     display: flex;
     align-items: center;
@@ -2118,14 +2118,14 @@ p {
         }
         @media(max-width:800px) {
             :nth-child(3) {
-             
                 position: relative;
+                right: 0;
            
             }
             height: 300px;
             align-items: center;
             justify-content: space-evenly;
-            padding-left: 0;
+            padding: 0;
             h3 {
                 font-size: 2em;
             }
