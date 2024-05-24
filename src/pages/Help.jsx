@@ -132,7 +132,6 @@ function Help() {
 export default Help
 
 const HelpContainer = styled.div`
-    padding: 1rem;
     height: auto;
     
     `
@@ -165,6 +164,7 @@ const UpperCard = styled.div`
     }
     p {
         width: 300px;
+        
     }
     button {
         font-family: 'Montserrat';
@@ -236,12 +236,9 @@ const UpperCard = styled.div`
 const InputBox = styled.div`
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     @media (max-width: 730px) {
-        justify-content: center;
-        align-items: center;
         padding: 1rem;
-
     }`
 
 const FormContainer = styled.div`
@@ -363,7 +360,6 @@ const OwnerContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 5rem;
         border-top: 0.5px solid grey;
         position: relative;
         height: 80px;
@@ -372,11 +368,10 @@ const OwnerContainer = styled.div`
         h3 {
             font-size: 1.2em;
         }
-      
-        padding-top: 1.5rem;
+        padding: 1.5rem 0 1.5rem 5rem;
         :nth-child(3) {
             position: absolute;
-            right: 0;
+            right: 3%;
             border: 1px solid grey;
             border-radius: 30px;
             background-color: white;
