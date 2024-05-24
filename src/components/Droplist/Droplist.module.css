@@ -1,0 +1,67 @@
+.droplist {
+    width: 35vw;
+    margin: 0 auto;
+    position: relative;
+    user-select: none;
+}
+.droplist .droplist_btn {
+    padding: 1rem 1.5rem;
+    background: transparent;
+    box-shadow: 1px 1px 5px 3px black;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width:700px) {
+    .droplist {
+        width: 90vw;
+    }
+    .droplist .droplist_btn {
+        font-size: 5vw;
+    }
+    .droplist .droplist_content {
+        font-size: 5vw;
+    }
+}
+
+.droplist .droplist_content {
+    position: absolute;
+    top: 110%;
+    z-index: 1;
+    padding: 0.5rem;
+    background: white;
+    box-shadow: 3px 3px 10px 6px black;
+    font-weight: 500;
+    color: grey;
+    width: 95%;
+    left: 0;
+    max-height: 500px;
+    overflow-y: auto;
+}
+.droplist .droplist_content .droplist_item{
+    padding: 1rem;
+    border-bottom: 1px grey solid;
+}
+.droplist .droplist_content .droplist_item:hover {
+    cursor: pointer;
+    box-shadow: -2px -2px 6px orange,
+                 2px 2px 6px orange;
+    transition: all 0.2s;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    font-size: 1.5em;
+    padding: 0.7em;
+}
+.active {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    font-size: 1.5em;
+    padding: 0.7em;
+
+}
+
